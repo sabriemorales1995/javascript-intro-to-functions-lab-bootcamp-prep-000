@@ -15,15 +15,15 @@ function logWhisper(string){
 
 function sayHiToGrandma(string){
   if(string===whisper(string)){
-    return "\"I can\'t hear you!\""}
+    return '"I can\'t hear you!"'}
     
     else if(string===shout(string)){
-    return "\"YES INDEED!\"";
+    return '"YES INDEED!"';
   }
   
   
-  let loveGram = "\"I love you, Grandma.\"";
+  let loveGram = '"I love you, Grandma."';
   if(string===loveGram){
-    return "\"I love you, too.\"";
+    return '"I love you, too."';
   }
 }
